@@ -18,6 +18,7 @@ class ToDoAPIList(ListCreateAPIView):
 
 
 
+
 class ToDoAPIRetrieveUpdate(RetrieveUpdateAPIView):
     queryset = ToDoNode.objects.all()
     serializer_class = ToDoNodeSerializer
